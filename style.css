@@ -1,0 +1,30 @@
+/*
+ Theme Name:   sds_2017 
+ Theme URI:    http://example.com/twenty-seventeen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentyseventeen
+*/
+
+
+.post-419 .entry-title:first-of-type {
+   display:none;
+}
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a, body.has-header-image .site-description, body.has-header-video .site-description {
+  text-shadow: 1px 1px 1px #000;
+}
+@media screen and (min-width: 48em) {
+  
+  .page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header {
+    margin-bottom: 1em;
+  }
+}
+
+.single-featured-image-header {
+   display:none;
+}
