@@ -19,5 +19,7 @@ add_filter ( 'twentyseventeen_custom_header_args', 'sds_2017_twentyseventeen_cus
 /**
  * override the special featured image to be 600 high instead of 1200
 **/
-
-add_image_size( 'twentyseventeen-featured-image', 2000, 600, true );
+function sds_2017_overide_featured_image() {
+   add_image_size( 'twentyseventeen-featured-image', 2000, 600, true );
+}
+add_action( 'after_setup_theme', 'sds_2017_overide_featured_image', 11 );
