@@ -28,21 +28,22 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
 .single-featured-image-header {
    display:none;
 }
-/***** need to wrap this in the right media stuff
-** Probably also need to overwrite the add_image_size and the customizer 
+/** Probably also need to overwrite the add_image_size and the customizer 
 ** code
 ** */
+@media screen and (min-width: 48em) {
 .twentyseventeen-front-page.has-header-image .custom-header-media,
         .twentyseventeen-front-page.has-header-video .custom-header-media,
         .home.blog.has-header-image .custom-header-media,
         .home.blog.has-header-video .custom-header-media {
                 height: 600px;
-                height: 100vh;
+                height: 80vh;
                 max-height: 600px;
                 overflow: hidden;
         }
         .panel-image {
-                height: 100vh;
+                height: 80vh;
                 max-height: 600px;
         }
+}
 
