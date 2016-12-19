@@ -11,6 +11,9 @@
  Text Domain:  twentyseventeen
 */
 
+ul, ol {
+   margin-left: 2em;
+}
 
 .post-419 .entry-title:first-of-type {
    display:none;
