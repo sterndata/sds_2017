@@ -28,9 +28,11 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
 .single-featured-image-header {
    display:none;
 }
-/** Probably also need to overwrite the add_image_size and the customizer 
-** code
-** */
+
+#black-studio-tinymce-5 img {
+   margin: 4px;
+}
+
 @media screen and (min-width: 48em) {
 .twentyseventeen-front-page.has-header-image .custom-header-media,
         .twentyseventeen-front-page.has-header-video .custom-header-media,
