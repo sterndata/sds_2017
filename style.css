@@ -34,7 +34,7 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
 }
 .sds_column.half {
    column-count: 2;
-   column-gap: 10px;
+   column-gap: 50px;
 }
 .sds_column.half p:first-of-type {
    display: none;
