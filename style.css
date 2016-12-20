@@ -22,6 +22,10 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
   text-shadow: 1px 1px 1px #000;
 }
 
+.page-one-column .panel-content .wrap {
+   padding-top: .5em;
+}
+
 @media screen and (min-width: 30em) {
    .page-one-column .panel-content .wrap {
       max-width: 960px; /* was 740 */
