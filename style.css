@@ -11,6 +11,9 @@
  Text Domain:  twentyseventeen
 */
 
+h1, h2, h3, h4, h5, h6, p.site-title {
+   font-family: Bitter, sans-serif;
+}
 ul, ol {
    margin-left: 2em;
 }
