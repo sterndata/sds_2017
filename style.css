@@ -1,11 +1,11 @@
 /*
  Theme Name:   sds_2017 
- Theme URI:    http://example.com/twenty-seventeen-child/
- Description:  Twenty Seventeen Child Theme
- Author:       John Doe
- Author URI:   http://example.com
+ Theme URI:    http://www.sterndata.com
+ Description:  Twenty Seventeen Child Theme for www.sterndata.com
+ Author:       Steven Stern
+ Author URI:   http://www.sterndata.com
  Template:     twentyseventeen
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  twentyseventeen
@@ -17,6 +17,10 @@ ul, ol {
 
 .post-419 .entry-title:first-of-type {
    display:none;
+}
+.home .entry-title {
+   font-size: 1em;
+   margin-top: 1em;
 }
 .entry-content h2 {
    clear: none;
