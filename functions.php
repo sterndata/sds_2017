@@ -23,3 +23,13 @@ function sds_2017_overide_featured_image() {
 	add_image_size( 'twentyseventeen-featured-image', 2000, 600, true );
 }
 add_action( 'after_setup_theme', 'sds_2017_overide_featured_image', 11 );
+
+/* override the content width */
+$content_width = 1000;
+add_filter( 'jetpack_content_width', 'set_jp_cw' );
+function set_jp_cw( $width ){
+   if ( ! $width ){
+      $width = 2000;
+   }
+   return $width;
+}
