@@ -98,3 +98,11 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
       float:right;
    }
 }
+
+.widget_rss ul li {
+   padding: 4px;
+}
+.widget_rss li .rsswidget {
+  font-size:initial;
+  line-height:initial;
+}
