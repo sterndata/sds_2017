@@ -106,3 +106,11 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
   font-size:initial;
   line-height:initial;
 }
+
+/* nest comments */
+
+.comment-list .children {
+    border-left: 1px solid #aaa;
+    padding-left: 1em;
+    margin-left: 1em;
+}
