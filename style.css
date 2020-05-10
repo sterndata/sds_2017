@@ -114,3 +114,7 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
     padding-left: 1em;
     margin-left: 1em;
 }
+
+..wp-block-latest-posts.wp-block-latest-posts__list {
+    list-style: disc;
+}
